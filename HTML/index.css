@@ -1,0 +1,52 @@
+.parent {
+    margin: 0;
+    padding: 0;
+    position: relative;;
+}
+* {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+
+}
+ul {
+    list-style: none;
+}
+.logo {
+    background-color: transparent;
+}
+.logo a {
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    letter-spacing: 5px;
+    left: 140px;
+    top: 10px;
+    font-size: 100px;
+
+}
+.logo a span {
+    transform: rotate3d(-2, 600, 0, 185deg);
+    display: flex;
+    position: absolute;
+    left: -64px;
+    color: #8f8f8f;
+    
+}
+.logo h1 {
+    position: absolute;
+    font-size: 17px;
+    top: 104px;
+    left: 85px;
+    font-family: 'Tourney', cursive;
+    text-transform: uppercase;
+
+}
+.logo img {
+    width: 24px;
+    position: absolute;
+    left: 193px;
+    top: 114px
+}
